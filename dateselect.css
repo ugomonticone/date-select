@@ -1,0 +1,94 @@
+﻿#divCalendarBase {
+  width: 240px;
+  padding: 6px;
+  background-color: #fefefe;
+  border-radius: 6px;
+  border: 2px solid #efefef;
+  position: absolute;
+  z-index: 0;
+  font-family: Arial;
+}
+
+#divDaysCalendar {
+  width: 100%;
+}
+
+  #divDaysCalendar > span {
+    display: inline-block;
+    width: 28px;
+    padding: 2px;
+    margin: 1px;
+    overflow: hidden;
+    background-color: #aaa;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+#divHeaderCalendar {
+  font-size: 13px;
+  font-weight: 600;
+  color: #666;
+}
+
+#spanPrev, #spanNext {
+  display: inline-block;
+  width: 28px !important;
+  padding: 1px;
+  margin: 1px;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #efefef;
+  cursor: pointer;
+}
+
+  #spanNext:hover, #spanPrev:hover {
+    padding: 0;
+    border: 2px solid #bbb;
+  }
+
+#spanCurrent {
+  display: inline-block;
+  width: 164px;
+  padding: 1px;
+  margin: 1px;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #efefef;
+}
+
+.calendarDay {
+  display: inline-block;
+  width: 28px;
+  height: 24px;
+  line-height: 28px;
+  padding: 2px;
+  margin: 0 1px;
+  overflow: hidden;
+  background-color: #f3f3ff;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.calendarDayVoid {
+  display: inline-block;
+  width: 28px;
+  height: 24px;
+  line-height: 28px;
+  padding: 2px;
+  margin: 1px;
+}
+
+
+.calendarDay:hover {
+  padding: 0;
+  border: 2px solid #bbb;
+  background-color: #aaa;
+  color: #fff;
+}
